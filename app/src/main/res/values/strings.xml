@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Gadget Nation</string>
+
+    <string name="base_url">https://wonderdeal.id/</string>
+    <string name="X_API_KEY">terserah</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <array name="dot_colors">
+        <item>#fdd835</item>
+        <item>#fbc02d</item>
+        <item>#f9a825</item>
+        <item>#fdd835</item>
+    </array>
+
+    <string name="dummy_desc_detail">Powerful Camera \nStunning Display \nNext Convenience</string>
+    <string name="dummy_cat_one">Semua\nKategori</string>
+    <string name="dummy_cat_two">Smartphone\n&amp; Aksesoris</string>
+    <string name="dummy_cat_three">Komputer\n&amp; Aksesoris</string>
+    <string name="dummy_cat_four">Camera\n&amp; Aksesoris</string>
+    <string name="dummy_cat_five">Laptop\n&amp; Aksesoris</string>
+    <string name="label_home">Home</string>
+    <string name="label_category">Kategori</string>
+    <string name="label_login">Login</string>
+    <string name="label_wishlist">Wishlist</string>
+    <string name="label_checkout">Checkout</string>
+    <string name="label_setting">Pengaturan</string>
+    <string name="label_contactus">Kontak Kami</string>
+    <string name="label_logout">Keluar</string>
+    <string name="label_name">Nama</string>
+    <string name="label_order_id">No Pesanan/ Order ID</string>
+    <string name="label_jml_transfer">Jumlah Transfer</string>
+    <string name="label_tgl_transfer">Tanggal Transfer</string>
+    <string name="label_no_rek_asal">No Rekening Asal</string>
+    <string name="label_nama_bank_asal">Nama Bank Asal</string>
+    <string name="label_nama_pemegang_rek_asal">Nama Pemegang Rekening Asal</string>
+    <string name="label_bukti_transfer">Bukti Transfer</string>
+    <string name="label_upload">upload</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_process_checkout">Checkout</string>
+    <string name="label_billing_details">Billing Details</string>
+    <string name="label_full_name">Nama Lengkap*</string>
+    <string name="label_address">Alamat Lengkap*</string>
+    <string name="label_buy">Buy Now</string>
+
+    <!--array-->
+    <string-array name="data_qty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

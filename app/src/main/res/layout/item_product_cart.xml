@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchWrapLayout"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layItemCart"
+        style="@style/MatchWrapLayout"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!-- android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"-->
+
+        <RelativeLayout
+            android:id="@+id/layDetail"
+            style="@style/MatchWrapLayout">
+
+
+                <!-- <ImageView
+              android:id="@+id/imgClearCart"
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:layout_gravity="right"
+              android:background="?android:attr/selectableItemBackground"
+              android:clickable="true"
+              android:src="@drawable/ic_clear"
+              android:visibility="gone"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true" />-->
+
+                <ImageView
+                    android:id="@+id/imgProductCart"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/no_image" />
+
+                <TextView
+                    android:id="@+id/txtProductTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/imgProductCart"
+                    android:ellipsize="end"
+                    android:fontFamily="roboto"
+                    android:singleLine="true"
+                    android:text="Lorem ipsum dolor sit amet "
+                    android:textColor="#424242"
+                    android:textSize="14sp" />
+
+                <!-- <TextView
+                     android:id="@+id/txtQty"
+                     android:layout_width="wrap_content"
+                     android:layout_height="40dp"
+                     android:layout_marginTop="7dp"
+                     android:gravity="center"
+                     android:text="Qty"
+                     android:fontFamily="roboto"
+                     android:textColor="#212121"
+                     android:textSize="14sp"
+                     android:layout_below="@+id/txtProductTitle"
+                     android:layout_toRightOf="@+id/imgProductCart"
+                     android:layout_toEndOf="@+id/imgProductCart" />-->
+
+                <TextView
+                    android:id="@+id/txtProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtProductTitle"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/imgProductCart"
+                    android:fontFamily="roboto"
+                    android:text="Rp. 950.000"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frItemCart"
+            android:layout_below="@id/layDetail"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#e0e0e0"/>
+
+        <TextView
+            android:id="@+id/txtStockTersedia"
+            android:layout_below="@id/frItemCart"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#424242"
+            android:text="Stok Tersedia"/>
+
+        <TextView
+            android:id="@+id/txtJumlah"
+            android:layout_below="@id/txtStockTersedia"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"/>
+
+        <RelativeLayout
+            android:id="@+id/laySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="135dp"
+            android:layout_below="@id/frItemCart"
+            android:layout_toRightOf="@id/txtStockTersedia"
+            android:background="#e0e0e0">
+
+            <Spinner
+                android:id="@+id/spinQty"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:entries="@array/data_qty"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frItemCart2"
+            android:layout_below="@id/laySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#bdbdbd"/>
+
+
+        <!-- <TextView
+             android:id="@+id/txtTotalItem"
+             style="@style/MatchWrapLayout"
+             android:layout_below="@id/layDetail"
+             android:layout_marginTop="3dp"
+             android:background="@color/flat_clouds"
+             android:fontFamily="roboto"
+             android:gravity="right"
+             android:padding="5dp"
+             android:text="Total : Rp 0"
+             android:textColor="#212121"
+             android:textSize="14sp" />
+ -->
+    </RelativeLayout>
+
+</RelativeLayout>

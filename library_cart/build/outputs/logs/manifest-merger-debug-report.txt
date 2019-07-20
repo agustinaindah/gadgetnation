@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:1-9:12
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:5:5-7:19
+	android:allowBackup
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml:6:9-35
+uses-sdk
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		ADDED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml
+		INJECTED from F:\gadgetnation_theme_android\library_cart\src\main\AndroidManifest.xml

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatchLayout">
+
+    <ScrollView
+        android:id="@+id/scrollPayment"
+        style="@style/MatchWrapLayout">
+
+        <RelativeLayout
+            android:id="@+id/layForm"
+            style="@style/MatchWrapLayout">
+
+            <RelativeLayout
+                android:id="@+id/layFormPayment"
+                style="@style/MatchMatchLayout"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/txtNama"
+                    style="@style/MatchWrapLayout"
+                    android:text="@string/label_name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputNama"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtNama">
+
+                    <EditText
+                        android:id="@+id/edtNama"
+                        style="@style/AppTheme.EditTextMaterial" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtOrderId"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/inputNama"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_order_id"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputNoPesan"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtOrderId">
+
+                    <EditText
+                        android:id="@+id/edtNoPesan"
+                        style="@style/AppTheme.EditTextMaterial" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtJmlTransfer"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/inputNoPesan"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_jml_transfer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputJmlTransfer"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtJmlTransfer">
+
+                    <EditText
+                        android:id="@+id/edtJmlTransfer"
+                        style="@style/AppTheme.EditTextMaterial"
+                        android:inputType="number" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtTglTransfer"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/inputJmlTransfer"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/label_tgl_transfer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtTransferDate"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/txtTglTransfer"
+                    android:layout_marginTop="5dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:text="01 Januari 2017"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtNoRekAsal"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/txtTransferDate"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_no_rek_asal"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputNoRekAsal"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtNoRekAsal">
+
+                    <EditText
+                        android:id="@+id/edtNoRekAsal"
+                        style="@style/AppTheme.EditTextMaterial"
+                        android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtNmaBankAsal"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/inputNoRekAsal"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_nama_bank_asal"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputNamaBankAsal"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtNmaBankAsal">
+
+                    <EditText
+                        android:id="@+id/edtNamaBankAsal"
+                        style="@style/AppTheme.EditTextMaterial" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtNmaPemegangRekAsal"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/inputNamaBankAsal"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_nama_pemegang_rek_asal"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputNmaPemilikRekAsal"
+                    style="@style/TextLabel"
+                    android:layout_below="@id/txtNmaPemegangRekAsal">
+
+                    <EditText
+                        android:id="@+id/edtNmaPemilikRekAsal"
+                        style="@style/AppTheme.EditTextMaterial" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtBuktiTransfer"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@+id/inputNmaPemilikRekAsal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/label_bukti_transfer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/layBuktiTransfer"
+                    style="@style/MatchWrapLayout"
+                    android:layout_below="@id/txtBuktiTransfer"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="9dp">
+
+                    <ImageView
+                        android:id="@+id/imgUploadPhoto"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/up_image" />
+
+                    <Button
+                        android:id="@+id/btnUploadPhoto"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_alignEnd="@+id/imgUploadPhoto"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/imgUploadPhoto"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/label_upload"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layButtonSubmit"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/layFormPayment"
+                android:background="#e0e0e0">
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="7dp"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/label_submit"
+                    android:textColor="@android:color/white" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <!-- <RelativeLayout
+         android:id="@+id/layButtonSubmit"
+         android:layout_alignParentBottom="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#e0e0e0">
+
+         <Button
+             android:id="@+id/btnSubmit"
+             android:layout_width="220dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:background="@color/colorPrimary"
+             android:layout_margin="7dp"
+             android:text="@string/label_submit"
+             android:textColor="@android:color/white" />
+
+     </RelativeLayout>-->
+
+</RelativeLayout>

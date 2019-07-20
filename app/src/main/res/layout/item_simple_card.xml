@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardSimpleCard"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/laySimpleCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSimpleCard"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtTitleSimpleCard"
+            style="@style/MatchWrapLayout"
+            android:layout_below="@id/imgSimpleCard"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="2"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/txtPriceSimpleCard"
+            android:layout_below="@id/txtTitleSimpleCard"
+            style="@style/WrapWrapLayout"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="7dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:text="Rp 20.000"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

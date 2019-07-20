@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layItemSimpleCard"
+        style="@style/WrapWrapLayout"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgCategorySub"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:src="@mipmap/ic_launcher"/>
+
+       <!-- <ImageView
+            android:id="@+id/imgCategorySub"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:src="@mipmap/ic_launcher"/>-->
+
+        <TextView
+            android:id="@+id/txtCategoryTitle"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCategorySub"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:text="tesssssssssssssssssssssssssssssssss"
+            android:textColor="@color/material_blue_grey_800"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

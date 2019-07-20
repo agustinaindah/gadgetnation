@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.gadgetnation.app">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".GadgetNationApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".feature.splashscreen.SplashscreenActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".feature.all_product.detail_product.DetailProductActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".feature.category.MenuCategoryActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".feature.payment_confirm.PaymentConfirmActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".feature.cart.CartActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".feature.checkout.CheckoutActivity"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardItemListCategory"
+    android:layout_margin="5dp"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgItemListCat"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <FrameLayout
+            android:id="@+id/frItemListCat"
+            android:layout_below="@id/imgItemListCat"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/txtTitleCategory"
+            android:layout_below="@id/frItemListCat"
+            style="@style/MatchWrapLayout"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:text="Title"/>
+
+        <TextView
+            android:id="@+id/txtPriceCategory"
+            android:layout_below="@id/txtTitleCategory"
+            style="@style/MatchWrapLayout"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="Rp 280000"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

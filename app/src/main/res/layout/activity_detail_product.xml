@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatchLayout"
+    android:background="#ffff">
+
+    <ScrollView
+        android:id="@+id/scrollDetailProduct"
+        style="@style/MatchMatchLayout"
+        android:layout_marginBottom="65dp">
+
+        <RelativeLayout
+            android:id="@+id/layDetail"
+            style="@style/MatchMatchLayout">
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/sliderDetailProduct"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:fitsSystemWindows="true" />
+
+            <TextView
+                android:id="@+id/txtTitleDetailProduct"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/sliderDetailProduct"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:text="Nikon kamera d700"
+                android:textColor="#424242"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtPriceDetailProduct"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/txtTitleDetailProduct"
+                android:paddingLeft="10dp"
+                android:text="Rp 950.000"
+                android:textColor="@color/colorPrimary" />
+
+            <RatingBar
+                android:id="@+id/ratingDetailProduct"
+                style="@style/RatingBar"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPriceDetailProduct"
+                android:numStars="5"
+                android:paddingLeft="10dp"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/txtStockAvailable"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/ratingDetailProduct"
+                android:paddingLeft="10dp"
+                android:text="Stock Available"
+                android:textColor="#bdbdbd" />
+
+            <FrameLayout
+                android:id="@+id/frDetailProduct"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txtStockAvailable"
+                android:layout_margin="7dp"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/txtInformasiProduk"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/frDetailProduct"
+                android:padding="7dp"
+                android:text="Informasi produk"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/tblDetailProduct"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/txtInformasiProduk"
+                android:padding="5dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:text="Kondisi"
+                        android:textColor="#424242" />
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:gravity="right"
+                        android:text="Baru"
+                        android:textColor="#424242" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:text="Pemesanan Min"
+                        android:textColor="#424242" />
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:gravity="right"
+                        android:text="1"
+                        android:textColor="#424242" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:text="Kategori"
+                        android:textColor="#424242" />
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:gravity="right"
+                        android:text="Kamera"
+                        android:textColor="#424242" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:text="Transaksi Berhasil"
+                        android:textColor="#424242" />
+
+                    <TextView
+                        style="@style/MatchWrapLayout"
+                        android:layout_margin="4dp"
+                        android:gravity="right"
+                        android:text="100%"
+                        android:textColor="#424242" />
+                </TableRow>
+
+            </TableLayout>
+
+            <FrameLayout
+                android:id="@+id/frDetailProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tblDetailProduct"
+                android:layout_margin="7dp"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/txtDeskripsiProduk"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/frDetailProduct1"
+                android:padding="7dp"
+                android:text="Deskripsi Produk"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescDetailProduct"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/txtDeskripsiProduk"
+                android:padding="7dp"
+                android:text="@string/dummy_desc_detail"
+                android:textColor="#424242"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:id="@+id/frDetailProduct2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txtDescDetailProduct"
+                android:layout_margin="7dp"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/txtPenjualProduk"
+                style="@style/MatchWrapLayout"
+                android:layout_below="@id/frDetailProduct2"
+                android:padding="7dp"
+                android:text="Penjual Produk"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgPenjualProduct"
+                style="@style/WrapWrapLayout"
+                android:layout_below="@id/txtPenjualProduk"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtNamePenjualProduct"
+                style="@style/WrapWrapLayout"
+                android:layout_below="@id/txtPenjualProduk"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgPenjualProduct"
+                android:padding="5dp"
+                android:text="Gagdet Nation"
+                android:textColor="#424242" />
+
+            <TextView
+                android:id="@+id/txtLocationPenjualProduct"
+                style="@style/WrapWrapLayout"
+                android:layout_below="@id/txtNamePenjualProduct"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgPenjualProduct"
+                android:drawableLeft="@drawable/ic_map_detail"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:text="Kota Semarang"
+                android:textColor="#424242" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layButtonDetailProduct"
+        style="@style/MatchWrapLayout"
+        android:layout_alignParentBottom="true"
+        android:background="#e0e0e0"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/btnWishlist"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_wishlist_detail" />
+
+        <ImageButton
+            android:id="@+id/btnCart"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_cart_detail" />
+
+        <Button
+            android:id="@+id/btnBuy"
+            style="@style/MatchWrapLayout"
+            android:background="@color/colorPrimary"
+            android:text="Buy"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
